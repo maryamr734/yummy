@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+ <div id="loading" class="text-white">
+    <div class="sk-fading-circle">
+        <div class="sk-circle1 sk-circle"></div>
+        <div class="sk-circle2 sk-circle"></div>
+        <div class="sk-circle3 sk-circle"></div>
+        <div class="sk-circle4 sk-circle"></div>
+        <div class="sk-circle5 sk-circle"></div>
+        <div class="sk-circle6 sk-circle"></div>
+        <div class="sk-circle7 sk-circle"></div>
+        <div class="sk-circle8 sk-circle"></div>
+        <div class="sk-circle9 sk-circle"></div>
+        <div class="sk-circle10 sk-circle"></div>
+        <div class="sk-circle11 sk-circle"></div>
+        <div class="sk-circle12 sk-circle"></div>
+      </div>
+</div>
+<div class="box-container d-flex vh-100 position-fixed top-0" id="BoxContainer">
+    <div id="boxLinks" class="bg-dark text-white p-4 d-flex flex-column justify-content-between">
+        <div class="links">
+            <ul class="list-unstyled" id="links">
+                <li class="py-2" onclick="displaySearch();closeSlider()">Search</li>
+                <li class="py-2" onclick="getCategory() ; closeSlider() "> Categories </li>
+                <li class="py-2" onclick="getArea() ;  closeSlider()">Area</li>
+                <li class=" py-2"onclick="getIngrediants() ;  closeSlider()">Ingrediants </li>
+                <li class="py-2" onclick="showContacts() ; closeSlider()">Contact Us</li>
+            </ul>
+        </div>
+        <div class="footer">
+            <div class="footer-icons d-flex">
+                <i class="fa-brands fa-facebook fs-4"></i>
+                <i class="fa-brands fa-twitter fs-4 px-3"></i>
+                <i class="fa-solid fa-globe fs-4"></i>
+            </div>
+            <div class="footer-content">
+                <p>Copyright © 2019 All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="SlideBar" class="d-flex flex-column justify-content-between px-2 bg-white">
+        <div class="imgContainer pt-4">
+            <img src="./main images/logo (1).png" class="logo" alt="" style="width: 100px;">
+        </div>
+        <div class="OpenDiv text-center">
+            <i class="fa-solid fa-bars fs-2" id="menuToggle"></i>
+            <i class="fa-solid fa-x fs-2 d-none" id="closeToggle"></i>
+        </div>
+        <div class="slidebarFooter text-center d-flex flex-column mb-4">
+            <i class="fa-solid fa-globe fs"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+        </div>
+    </div>
+</div>
+
+<div id="Searching">
+    <div class="container p-5 mt-4" id="SearchingContainer">
+
+    </div>
+</div>
+<div id="ContactUS" >
+    <div class="container w-100">
+        <div class="row gy-2" id="datarows">
+
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+<div class="row">
+
+      
+
+</div>
+
+
+
+
+
+>
+
+
+
+
+
+
+
+  <script src="./js/jquery-3.7.1.min.js"></script>  
+  <script src="./js/bootstrap.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+</html>
